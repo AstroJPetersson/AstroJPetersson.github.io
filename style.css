@@ -1,45 +1,46 @@
 /* CSS */
 .pagestyle{
-    background: linear-gradient(to right, #003366 0%, #666699 100%);
+    background: linear-gradient(to bottom right, #003366 0%, #01796F 100%);
     margin: 20px;
+    background-attachment: fixed;
 }
 .menu{
     padding-left: 40px;
     padding-right: 40px;
     margin: auto;
     text-align: center;
-    background-color: darkslateblue;
+    background-color: #01796F;
     color: white;
     font-family: "Courier New";
 
     border-style: outset;
     border-width: 4px;
-    border-color: darkslateblue;
+    border-color: #01796F;
 }
 .block{
     padding: 40px;
     margin: auto;
     text-align: left;
-    background-color: steelblue;
+    background-color: #003366;
     color: white;
     font-family: "Courier New";
 
     border-style: outset;
     border-width: 4px;
-    border-color: steelblue;
+    border-color: #003366;
 }
 .end{
     padding-left: 40px;
     padding-right: 40px;
     margin: auto;
     text-align: center;
-    background-color: lightslategray;
+    background-color: #808080;
     color: white;
     font-family: "Courier New";
 
     border-style: outset;
     border-width: 4px;
-    border-color: lightslategray;
+    border-color: #808080;
 }
 .right{
     float: right;
@@ -50,7 +51,7 @@
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
-}  
+}
 .button:hover{
     background-color: white;
     color: black;
