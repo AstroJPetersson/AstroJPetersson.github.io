@@ -56,6 +56,21 @@
     background-color: white;
     color: black;
 }
+.buttonsmall{
+    padding: 0px;
+    border-radius: 0px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.buttonsmall:hover{
+    background-color: white;
+    color: black;
+}
+.link{
+    color: white;
+    text-decoration: underline;
+}
 hr{
     display: block;
     margin-top: 7px;
