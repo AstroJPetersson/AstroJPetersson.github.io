@@ -45,6 +45,11 @@
 .right{
     float: right;
 }
+.researchimage{
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .button{
     padding: 4px;
     border-radius: 8px;
