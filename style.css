@@ -1,88 +1,53 @@
 /* CSS */
 .pagestyle{
-    background: linear-gradient(to bottom right, #003366 0%, #01796F 100%);
-    margin: 20px;
-    background-attachment: fixed;
+    background-color: #CFCFC4;
+    margin: auto;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    font-size: 12pt;
 }
 .menu{
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: auto;
     text-align: center;
-    background-color: #01796F;
-    color: white;
-    font-family: "Courier New";
-
-    border-style: outset;
-    border-width: 4px;
-    border-color: #01796F;
+    color: black;
+    font-family: "Gill Sans";
+    font-weight: bold;
 }
 .block{
-    padding: 40px;
-    margin: auto;
     text-align: left;
-    background-color: #003366;
-    color: white;
-    font-family: "Courier New";
-
-    border-style: outset;
-    border-width: 4px;
-    border-color: #003366;
+    color: black;
+    font-family: "Gill Sans";
 }
 .end{
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: auto;
     text-align: center;
-    background-color: #808080;
-    color: white;
-    font-family: "Courier New";
-
-    border-style: outset;
-    border-width: 4px;
-    border-color: #808080;
+    color: black;
+    font-family: "Gill Sans";
 }
 .right{
     float: right;
-}
-.researchimage{
-    float: right;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin: 18pt;
 }
 .button{
-    padding: 4px;
-    border-radius: 8px;
-    color: white;
+    color: black;
     text-decoration: none;
     transition-duration: 0.4s;
 }
 .button:hover{
-    background-color: white;
     color: black;
+    text-decoration: underline;
 }
 .buttonsmall{
-    padding: 0px;
-    border-radius: 0px;
-    color: white;
+    color: black;
     text-decoration: none;
     transition-duration: 0.4s;
 }
 .buttonsmall:hover{
-    background-color: white;
     color: black;
+    text-decoration: underline;
 }
 .link{
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 hr{
-    display: block;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: none;
-    border-width: 4px;
-    border-color: white;
+    border: 1px solid black;
 }
