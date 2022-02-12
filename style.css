@@ -9,18 +9,18 @@
 .menu{
     text-align: center;
     color: black;
-    font-family: "Gill Sans";
+    font-family: "Verdana";
     font-weight: bold;
 }
 .block{
     text-align: left;
     color: black;
-    font-family: "Gill Sans";
+    font-family: "Verdana";
 }
 .end{
     text-align: center;
     color: black;
-    font-family: "Gill Sans";
+    font-family: "Verdana";
 }
 .right{
     float: right;
