@@ -24,7 +24,8 @@
 }
 .right{
     float: right;
-    margin: 18pt;
+    margin-left: 18pt;
+    margin-right: 18pt;
 }
 .button{
     color: black;
