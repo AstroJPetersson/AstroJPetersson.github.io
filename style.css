@@ -1,12 +1,13 @@
 /* CSS */
 .backstyle{
-    background-color: #002147;
-    margin: 0%;
+    background: linear-gradient(to bottom right, #082567 0%, #004225 100%);
+    background-attachment: fixed;
+    margin: 2%;
 }
 .frontstyle{
-    background-color: #C0C0C0;
+    background-color: #FFFFFF;
     width: 650px;
-    height: 100vh;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 10pt;
