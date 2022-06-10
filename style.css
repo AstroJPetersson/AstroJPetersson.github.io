@@ -6,7 +6,8 @@
 }
 .frontstyle{
     background-color: #FFFFFF;
-    width: 650px;
+    border-radius: 10px;
+    max-width: 650px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
