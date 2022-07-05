@@ -1,7 +1,6 @@
 /* CSS */
 .backstyle{
-    background:
-        linear-gradient(to bottom right, rgba(38, 97, 156, 1), rgba(93, 57, 84, 1) 80%);
+    background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(197, 75, 140, 1));
     background-attachment: fixed;
     margin: 1%;
 }
@@ -12,13 +11,18 @@
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 10pt;
+    padding: 10px;
     font-size: 12pt;
 }
 .menu{
     font-family: "Helvetica";
+    font-size: 18pt;
     font-weight: bold;
     text-align: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
 }
 .block{
     font-family: "Helvetica";
@@ -48,4 +52,44 @@
 }
 hr{
     border: 1px solid black;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropbtn{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: default;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(196, 195, 208, 1);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+    min-width: 210px;
+}
+.dropdown-content a{
+    display: block;
+    color: black;
+    font-size: 14pt;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    display: block;
+    text-decoration: underline;
+}
+.dropdown:hover .dropbtn{
+    text-decoration: underline;
 }

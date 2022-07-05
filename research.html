@@ -18,33 +18,38 @@
     <div class="frontstyle">
         <!-- Menu -->
         <div class="menu">
-            <p style="font-size: 18pt; display: flex; justify-content: space-evenly;">
+            <div>
                 <a class="button" href="index.html">Home</a>
-                <a class="button" href="research.html" style="text-decoration: underline;">Research</a>
+            </div>
+            <div class="dropdown">
+                <a class="dropbtn" href="research.html" style="text-decoration: underline;">Research</a>
+                <div class="dropdown-content">
+                    <a href="research.html">Research Projects</a>
+                    <a href="movies.html">Movies</a>
+                </div>
+            </div>
+            <div>
                 <a class="button" href="cv.html">CV</a>
-            </p>
+            </div>
         </div>
         <hr>
         <!-- Main block -->
         <div class="block">
             <p style="font-size: 24pt; font-weight: bold;">Research Projects</p>
             <p style="font-size: 18pt; font-weight: bold;">Master Project (2022)</p>
-            <video style="float: right; padding-left: 12pt;" width="40%" controls>
-                <source src="images/composite.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
             <p style="text-align: justify;">
                 <b>Title:</b> <i>Colliding Galaxies in a (Nut)Shell</i><br>
                 <b>Supervisor:</b> Florent Renaud<br>
                 <b>Project Description:</b> I run numerical simulations of two merging galaxies and their formation into a shell galaxy using the RAMSES code (Teyssier, 2002). Via a parameter survey, I explore different sets of parameters to find an orbtial configuration favourable for shell formation. From that, I perform an idealised high-resolution merger simulation and its formation into a shell galaxy, and analyse how the merger-driven star formation activity evolves with time, within the system, what the physical conditions are for it, and how it relates to its shell structure.<br>
-                <b>Thesis:</b> <a class="link" href="http://lup.lub.lu.se/student-papers/record/9094760">LUP Student Papers</a><br>
+                <b>Thesis:</b> <a class="link" href="http://lup.lub.lu.se/student-papers/record/9094760">LUP Student Papers</a><br><br>
+                <img src="images/mockcomposite.pdf" alt="mockimages" width="100%">
             </p>
             <br>
             <p style="font-size: 18pt; font-weight: bold;">Summer Research Project (2021)</p>
             <p style="text-align: justify;">
                 <b>Supervisor:</b> Paul McMillan<br>
                 <b>Project Description:</b> In Gaia Early Data Release 3, a break in the vertical angular momentum-velocity plane can be disguished (Gaia Collaboration et al., 2021), a break that is suspected to have a dynamical origin. In this project, I explore the possibility for a dynamical origin by running <i>N</i>-body simulations (> 3 million particles) of a Milky Way-like galaxy and the effects of a Sagittarius dwarf impact, using the RAMSES code (Teyssier, 2002).<br>
-                <b>Publication (co-author):</b> <a class="link" href="https://arxiv.org/abs/2206.04059">ArXiv</a><br>
+                <b>Publication (co-author):</b> <a class="link" href="https://arxiv.org/abs/2206.04059">ArXiv</a><br><br>
                 <img src="images/sp21_vzlz_phi1_zminus_extra_output_00038.png" alt="summerproject1" width="100%">
                 <img src="images/sp21_vzlz_phi1_zplus_extra_output_00038.png" alt="summerproject1" width="100%">
             </p>
@@ -59,7 +64,7 @@
         <hr>
         <!-- End block -->
         <div class="end">
-            <p style="text-align: left;">Copyright &#169; Jonathan Petersson 2022<span style="float: right;">Last updated: 2022-07-01</span></p>
+            <p style="text-align: left;">Copyright &#169; Jonathan Petersson 2022<span style="float: right;">Last updated: 2022-07-05</span></p>
         </div>
     </div>
 </body>
