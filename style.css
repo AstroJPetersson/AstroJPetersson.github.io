@@ -83,13 +83,13 @@ hr{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content, .dropdown:active .dropdown-content{
     display: block;
 }
-.dropdown-content a:hover{
+.dropdown-content a:hover, .dropdown-content a:active{
     display: block;
     text-decoration: underline;
 }
-.dropdown:hover .dropbtn{
+.dropdown:hover .dropbtn, .dropdown:active .dropbtn{
     text-decoration: underline;
 }
