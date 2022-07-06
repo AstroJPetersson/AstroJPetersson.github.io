@@ -61,7 +61,7 @@ hr{
     color: black;
     text-decoration: none;
     transition-duration: 0.4s;
-    cursor: default;
+    cursor: pointer;
 }
 .dropdown-content{
     display: none;
@@ -70,7 +70,7 @@ hr{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 10px;
     z-index: 1;
-    min-width: 210px;
+    min-width: 200px;
 }
 .dropdown-content a{
     display: block;
@@ -83,13 +83,13 @@ hr{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.dropdown:hover .dropdown-content, .dropdown:active .dropdown-content{
+.dropdown:hover .dropdown-content{
     display: block;
 }
-.dropdown-content a:hover, .dropdown-content a:active{
+.dropdown-content a:hover{
     display: block;
     text-decoration: underline;
 }
-.dropdown:hover .dropbtn, .dropdown:active .dropbtn{
+.dropdown:hover .dropbtn{
     text-decoration: underline;
 }
