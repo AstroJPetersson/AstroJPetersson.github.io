@@ -1,6 +1,6 @@
 /* CSS */
 .backstyle{
-    background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(197, 75, 140, 1));
+    background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(0, 66, 37, 1));
     background-attachment: fixed;
     margin: 1%;
 }
@@ -34,8 +34,8 @@
 }
 .right{
     float: right;
-    margin-left: 18pt;
-    margin-right: 18pt;
+    margin-left: 24pt;
+    margin-right: 24pt;
 }
 .button{
     color: black;
