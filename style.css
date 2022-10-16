@@ -15,7 +15,7 @@
     font-size: 12pt;
 }
 .menu{
-    font-family: "Helvetica";
+    font-family: "Georgia";
     font-size: 18pt;
     font-weight: bold;
     display: flex;
@@ -24,11 +24,11 @@
     justify-content: space-evenly;
 }
 .block{
-    font-family: "Helvetica";
+    font-family: "Georgia";
     text-align: left;
 }
 .end{
-    font-family: "Helvetica";
+    font-family: "Georgia";
     display: flex;
     justify-content: space-between;
 }
