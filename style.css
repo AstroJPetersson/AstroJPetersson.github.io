@@ -1,18 +1,20 @@
 /* CSS */
 .backstyle{
     background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(0, 66, 37, 1));
-    background-attachment: fixed;
+	background-attachment: fixed;
     margin: 1%;
 }
 .frontstyle{
     background-color: #FFFFFF;
     border-radius: 10px;
-    max-width: 650px;
+    max-width: 700px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 12pt;
+    padding-left: 20px;
+	padding-right: 20px;
+	font-size: 12pt;
 }
 .menu{
     font-family: "Georgia";
