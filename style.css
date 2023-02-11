@@ -1,7 +1,14 @@
 /* CSS */
 .backstyle{
-    background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(0, 66, 37, 1));
-	background-attachment: fixed;
+    /* background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(0, 66, 37, 1));
+	*/
+    background-image: url("images/rcw36_lg.jpg");
+    background-color: white;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     margin: 1%;
 }
 .frontstyle{
@@ -32,7 +39,9 @@
 }
 .end{
     font-family: "Georgia";
+    font-size: 9pt;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .right{
@@ -65,3 +74,9 @@
 hr{
     border: 1px solid black;
 }
+.br0{
+    display: block;
+    margin-bottom: 0em;
+}
+
+
