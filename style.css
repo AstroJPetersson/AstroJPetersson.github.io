@@ -78,5 +78,11 @@ hr{
     display: block;
     margin-bottom: 0em;
 }
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 4px;
+}
 
 
