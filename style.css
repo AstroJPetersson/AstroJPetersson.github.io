@@ -2,7 +2,7 @@
 .backstyle{
     /* background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(0, 66, 37, 1));
 	*/
-    background-image: url("images/ngc3079_lg.jpg");
+    background-image: url("images/voronoi.png");
     background-color: white;
     height: 100%;
     background-size: cover;
@@ -12,7 +12,7 @@
     margin: 1%;
 }
 .frontstyle{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(8, 37, 103, 0.4);
     border-radius: 10px;
     max-width: 700px;
     height: 100%;
@@ -84,5 +84,4 @@ table, td, th {
   text-align: left;
   padding: 4px;
 }
-
 
