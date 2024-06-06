@@ -2,8 +2,9 @@
 .backstyle{
     /* background-image: linear-gradient(to bottom right, rgba(8, 37, 103, 1), rgba(0, 66, 37, 1));
 	*/
-    background-image: url("images/voronoi.png");
-    background-color: white;
+    /*background-image: url("images/voronoi.png");
+    */
+    background-color: rgba(207, 207, 196, 0.6);
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -12,7 +13,10 @@
     margin: 1%;
 }
 .frontstyle{
-    background-color: rgba(8, 37, 103, 0.4);
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
     border-radius: 10px;
     max-width: 700px;
     height: 100%;
@@ -24,7 +28,7 @@
 	font-size: 12pt;
 }
 .menu{
-    font-family: "Georgia";
+    font-family: "Courier New";
     font-size: 18pt;
     font-weight: bold;
     display: flex;
@@ -34,11 +38,11 @@
     justify-content: space-evenly;
 }
 .block{
-    font-family: "Georgia";
+    font-family: "Courier New";
     text-align: left;
 }
 .end{
-    font-family: "Georgia";
+    font-family: "Courier New";
     font-size: 9pt;
     display: flex;
     flex-wrap: wrap;
