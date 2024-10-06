@@ -1,0 +1,18 @@
+<nav class="verticalmenu">
+    {% for item in site.data.navigation %}
+        {% if item.link == page.url %}
+            <a href="{{ item.link }}" class="activebutton">{{ item.name }}</a><br>
+        {% else %}
+            <a href="{{ item.link }}" class="inactivebutton">{{ item.name }}</a><br>
+        {% endif %}
+        {% if page.topic 'research' %}
+            {% for subitem in item.subfolderitems %}
+                {% if subitem.link == page.url %}
+                    <a href="{{ subitem.link }}" class="activebutton" style="font-size: 9pt;">{{ subitem.name }}</a><br>
+                {% else %}
+                    <a href="{{ subitem.link }}" class="inactivebutton" style="font-size: 9pt;">{{ subitem.name }}</a><br>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</nav>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Jonathan Petersson</title>
+    <link rel="icon" href="images/icon.png?v=2" type="image/png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome icons -->
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S26VXZZYYN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-S26VXZZYYN');
+    </script>
+</head>
+
+<body class="backstyle">
+    <div class="frontstyle">
+        <!-- Menu -->
+        <div class="menu">
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="research.html">Research</a>
+            <!-- <img src="images/solarsystem.gif" alt="solarsystem" width="30pt" height="30pt"> -->
+            <a class="button" href="cv.html">CV</a>
+			<a class="button" href="miscellaneous.html" style="text-decoration: underline;">Miscellaneous</a>
+        </div>
+        <hr>
+        <!-- Main block -->
+        <div class="block">
+            <p style="font-size: 24pt; font-weight: bold;">Miscellaneous</p>
+            <p style="font-size: 18pt; font-weight: bold;">Talks available online</p>
+            <p>
+                <i>Black Holes on Broadway: The Next Generation of AGN Models in Galaxy Formation</i><br>
+                New York, USA - December 2023<br>
+                <a class="link" href="https://www.simonsfoundation.org/video/black-holes-on-broadway-day-1-session-2/"><b>Contributed Talk</b></a>
+            </p>
+            <br>
+            <p style="font-size: 18pt; font-weight: bold;">Hobbies</p>
+            <p>
+                In my free time I like spending time in nature, especially hiking.  
+                I also enjoy running and occasionally participate in races.<br><br>
+                Collection of photos from some of my hikes: <a class="link" href="https://vsco.co/astrojpetersson">https://vsco.co/astrojpetersson</a><br><br>
+                List of races I have participated in:
+            </p>
+            <table>
+                <tr>
+                    <th>Race</th>
+                    <th>Location</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td style="width: 300px;">Generali Genève Half-Maratho</td>
+                    <td style="width: 200px;">Geneva, Switzerland</td>
+                    <td style="width: 110px;">2023-05-07</td>
+                    <td style="width: 90px;">01:58:51</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <!-- End block -->
+        <div class="end">
+            <p>Copyright &#169; Jonathan Petersson 2023</p>
+            <p>Last updated: 2023-11-25</p>
+            <!--
+            <p>Background: X-ray: NASA/CXC/University of<br>Michigan/J-T Li et al.; Optical: NASA/STScI</p>
+            -->
+        </div>
+    </div>
+</body>
+
+</html>

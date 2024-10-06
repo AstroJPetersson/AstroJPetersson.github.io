@@ -1,0 +1,23 @@
+.activebutton{
+    color: black;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+.inactivebutton{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.inactivebutton:hover{
+    color: black;
+    text-decoration: underline;
+}
+.contact{
+    color: black;
+    font-size: 14pt;
+    text-decoration: none;
+}
+.link{
+    color: black;
+    text-decoration: underline;
+}

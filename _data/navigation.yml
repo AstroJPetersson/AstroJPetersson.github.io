@@ -1,0 +1,16 @@
+- name: About Me
+  link: /
+- name: Research
+  link: /research.html
+  topic: research
+  subfolderitems:  
+  - name: Shell Galaxies
+    link: /shell_galaxies.html
+  - name: The Disturbed Outer MW Disc
+    link: /bachelor.md
+  - name: Capture of ISOs
+    link: /bachelor.html
+- name: Curriculum Vitae
+  link: /curriculum_vitae.html
+- name: Miscellaneous
+  link: /miscellaneous.html

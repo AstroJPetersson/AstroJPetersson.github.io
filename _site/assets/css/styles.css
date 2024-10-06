@@ -1,0 +1,153 @@
+/* CSS */
+.backstyle {
+  background-color: rgb(174, 198, 207);
+  margin: 1%;
+}
+
+.front {
+  max-width: 790px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.leftfrontstyle {
+  background-color: rgb(207, 207, 196);
+  color: black;
+  font-size: 12pt;
+  box-sizing: border-box;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 0px;
+  float: left;
+  width: 25%;
+}
+
+.rightfrontstyle {
+  background-color: rgb(207, 207, 196);
+  color: black;
+  font-size: 12pt;
+  box-sizing: border-box;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  float: left;
+  width: 75%;
+}
+
+.horizontalmenu {
+  font-family: "Courier New";
+  font-size: 18pt;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+.verticalmenu {
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.title {
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: 18pt;
+  margin: 0pt;
+}
+
+.desc {
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: 14pt;
+  margin: 0pt;
+}
+
+.block {
+  font-family: "Courier New";
+  font-size: 14pt;
+  text-align: left;
+}
+
+.end {
+  font-family: "Courier New";
+  font-size: 9pt;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 4px;
+}
+
+body {
+  font-family: "Courier New";
+  font-size: 12pt;
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 75%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.activebutton {
+  color: black;
+  text-decoration: underline;
+  transition-duration: 0.4s;
+}
+
+.inactivebutton {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.inactivebutton:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.contact {
+  color: black;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.link {
+  color: black;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
