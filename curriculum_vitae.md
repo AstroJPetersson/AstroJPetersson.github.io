@@ -43,6 +43,6 @@ Astrophysics I - Introduction to Astrophysics (BSc level)<span style="float: rig
 <br>
 
 ## Academic Awards
-<p><i>Markussens studiefond 2022</i><br>
+<p><i>Markussens Studiefond 2022</i><br>
 <i>Rotary Linne&#769;stipendium 2017</i></p>
  
