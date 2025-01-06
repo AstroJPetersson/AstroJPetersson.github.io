@@ -1,82 +1,98 @@
 /* CSS */
 .backstyle{
-    background-color: rgba(174, 198, 207, 1);
-    margin: 1%;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
 }
-.front{
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-}
-.leftfrontstyle{
-    background-color: rgba(207, 207, 196, 1);
-    color: black;
-	font-size: 10pt;
-    box-sizing: border-box;
-    padding: 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 10px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-right: 0px;
-    float: left;
-    width: 29%;
-}
-.rightfrontstyle{
-    background-color: rgba(207, 207, 196, 1.0);
-    color: black;
-	font-size: 12pt;
-    box-sizing: border-box;
-    padding: 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    float: left;
-    width: 71%;
-}
-.horizontalmenu{
-    font-family: "Courier New";
-    font-size: 18pt;
-    font-weight: bold;
+.frontleftstyle{
+    background-color: rgb(207, 207, 196);
+    margin: 0%;
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 100%;
+    width: 25%;
+    overflow: auto;
+}
+.frontleftcontent{
+    color: black;
+	font-size: 18pt;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 10%;
+    width: 70%;
+    max-width: 350px;
+}
+.frontrightstyle{
+    background-color: white;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 100%;
+    width: 75%;
+    overflow: auto;
+}
+.frontrightcontent{
+    color: black;
+    font-size: 14pt;
+    text-align: left;
+    margin-right: auto;
+    padding-left: 3.33%;
+    width: 90%;
+    max-height: 100%;
+    max-width: 1150px;
 }
 .verticalmenu{
     font-family: "Courier New";
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 18pt;
 }
 .title{
     font-family: "Courier New";
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 32pt;
     margin: 0pt;
 }
 .desc{
-    font-family: "Courier New";
-    font-weight: bold;
+    font-weight: normal;
+    font-style: italic;
     font-size: 14pt;
-    margin: 0pt;
 }
-.block{
+.credits{
     font-family: "Courier New";
-    font-size: 14pt;
-    text-align: left;
-}
-.end{
-    font-family: "Courier New";
-    font-size: 9pt;
-    justify-content: space-between;
+    font-size: 10pt;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile{
+    margin-left: 7%;
+    margin-bottom: 7%;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+.scimenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.scitopic{
+    font-size: 18pt;
+    text-align: center;
+    width: 50%;
+    margin-top: 4%; 
+    margin-bottom: 4%;
+}
+.sciicon{
+    width: 35%;
+    border: 0px solid black;
+    border-radius: 0%;
+    margin-bottom: 2%;
 }
 hr{
     border: 1px solid black;
@@ -87,9 +103,9 @@ table, td, th {
     text-align: left;
     padding: 4px;
 }
-body{
+html, body {
     font-family: "Courier New";
     font-size: 12pt;
+    height: 100%;
+    min-height: 100%;
 }
-
-

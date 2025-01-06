@@ -5,12 +5,12 @@
         {% else %}
             <a href="{{ item.link }}" class="inactivebutton">{{ item.name }}</a><br>
         {% endif %}
-        {% if page.topic 'research' %}
+        {% if page.topic 'science' %}
             {% for subitem in item.subfolderitems %}
                 {% if subitem.link == page.url %}
-                    <a href="{{ subitem.link }}" class="activebutton" style="font-size: 9pt;">{{ subitem.name }}</a><br>
+                    <a href="{{ subitem.link }}" class="activebutton" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
                 {% else %}
-                    <a href="{{ subitem.link }}" class="inactivebutton" style="font-size: 9pt;">{{ subitem.name }}</a><br>
+                    <a href="{{ subitem.link }}" class="inactivebutton" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
                 {% endif %}
             {% endfor %}
         {% endif %}

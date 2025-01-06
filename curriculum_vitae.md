@@ -1,12 +1,14 @@
 ---
 layout: default
 tile: Jonathan Petersson
+date: 2025-01-05
 ---
 
 # Curriculum Vitae
+<p>Full CV is available upon request.</p>
 
 ## Education
-<p><b>E&#769;cole Polytechnique Fe&#769;de&#769;rale de Lausanne</b><span style="float: right;">2022-2026</span><br>
+<p><b>E&#769;cole Polytechnique Fe&#769;de&#769;rale de Lausanne (EPFL)</b><span style="float: right;">2022-2026</span><br>
 <i>Doctor of Philosophy in Astrophysics</i></p>
 
 <p><b>Lund University</b><span style="float: right;">2020-2022</span><br>
@@ -19,17 +21,28 @@ tile: Jonathan Petersson
 <i>Upper Secondary Diploma - Natural Science Programme</i></p>
 <br>
 
-## Teaching Experience
-<p><b>Teaching Assistant (EPFL)</b><br>
-Astrophysics IV - Stellar & Galactic Dynamics (MSc level)<span style="float: right;">Spring, 2024</span><br>
-Astrophysics III - Galaxy Formation & Evolution (MSc level)<span style="float: right;">Autumn, 2023</span><br>
+## Services
+<p>Journal Club Organiser<span style="float: right;">2023-Now</span><br>
+<i style="font-size: 10pt;">Observatoire de Sauverny, Versoix Switzerland</i></p>
+
+<p>Host of Observatory Public Visits<span style="float: right;">2022-Now</span><br>
+<i style="font-size: 10pt;">Observatoire de Sauverny, Versoix Switzerland</i></p>
+
+<p>Part-Time Planetarium Worker<span style="float: right;">2019-2021</span><br>
+<i style="font-size: 10pt;">Vattenhallen Science Center, Lund Sweden</i></p>
+
+<p>Board Member<span style="float: right;">2018-2021</span><br>
+<i style="font-size: 10pt;">Lund University Academic Society’s Astronomy Club</i></p>
+<br>
+
+## Teaching
+<p><b>Teaching Assistant @ EPFL</b><br>
+Astrophysics IV - Stellar & Galactic Dynamics (MSc level)<span style="float: right;">Spring, 2024/25</span><br>
+Astrophysics III - Galaxy Formation & Evolution (MSc level)<span style="float: right;">Autumn, 2023/24</span><br>
 Astrophysics I - Introduction to Astrophysics (BSc level)<span style="float: right;">Spring, 2023</span></p>
 <br>
 
-## Awards
+## Academic Awards
 <p><i>Markussens studiefond 2022</i><br>
 <i>Rotary Linne&#769;stipendium 2017</i></p>
-<br>
-<p><i>Full CV is available upon request.</i></p>
-
  

@@ -1,15 +1,15 @@
 - name: About Me
   link: /
-- name: Research
-  link: /research.html
-  topic: research
+- name: Scientific Research
+  link: /science.html
+  topic: science
   subfolderitems:  
-  - name: Shell Galaxies
+  - name: Colliding Galaxies
     link: /shell_galaxies.html
-  - name: Disturbed MW Disc
-    link: /bachelor.md
-  - name: Capture of ISOs
-    link: /bachelor.html
+  - name: The Milky Way Disc
+    link: /milky_way.html
+  - name: Interstellar Objects
+    link: /capture_iso.html
 - name: Curriculum Vitae
   link: /curriculum_vitae.html
 - name: Miscellaneous
