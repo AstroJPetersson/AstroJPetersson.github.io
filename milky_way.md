@@ -9,7 +9,7 @@ date: 2025-01-05
 *Summer Project (2021)*
 
 <div style="text-align: justify;">
-    <video class="right" style="width: 40%; height: 100%; margin-left: 7%;" controls>
+    <video class="right" style="width: 40%; height: 100%; margin-left: 4%;" controls>
         <source src="assets/images/movie.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>

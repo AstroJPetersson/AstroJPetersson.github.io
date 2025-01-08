@@ -9,10 +9,10 @@ date: 2025-01-05
 *MSc Thesis Project (2022)*
 
 <div style="text-align: justify;">
-    <div class="right" style="width: 40%; height: 100%; margin-left: 7%;">
-        <iframe width="100%" height="350px" src="https://www.youtube.com/embed/ddDkNbl4GWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="right" style="width: 40%; height: 100%; margin-left: 4%;">
+        <iframe width="100%" height="220px" src="https://www.youtube.com/embed/ddDkNbl4GWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p style="font-size: 10pt; text-align: justify;">
-            Simulation of two merging disc galaxies (1:2 mass ratio) and their transformation into a shell galaxy. The gas of the two systems is shown in blue, the old stellar populations in grey, and newly formed stars in white.
+            Simulation of two colliding disc galaxies (1:2 mass ratio) merging into a shell galaxy. The gas of the two systems is shown in blue, while the old and newly formed stellar populations are shown in grey and white respectively.
         </p>
     </div>
     <b>Supervisor:</b> Florent Renaud<br>
