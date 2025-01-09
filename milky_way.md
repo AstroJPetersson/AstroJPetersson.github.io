@@ -10,7 +10,7 @@ date: 2025-01-05
 
 <div style="text-align: justify;">
     <div class="right" style="width: 50%; height: 100%; margin-left: 4%;">
-        <iframe width="100%" height="220px" src="https://www.youtube.com/embed/wjMdySvuJRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/wjMdySvuJRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p style="font-size: 10pt; text-align: justify;">
             Simulation of a Milky Way-like galaxy being perturb by a Sagittarius-like dwarf galaxy impact (represented by a point particle).
         </p>
