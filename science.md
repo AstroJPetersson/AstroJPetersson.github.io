@@ -2,10 +2,13 @@
 layout: default
 tile: Jonathan Petersson
 topic: research
-date: 2025-01-05
+date: 2025-04-11
 ---
 
 # Scientific Research
+
+<hr style="width:60%; margin-left: 0%;">
+
 <div class="scimenu">
     <div class="scitopic">
         <a class="inactivebutton" href="shell_galaxies.html">

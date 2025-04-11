@@ -1,11 +1,10 @@
 ---
 layout: default
 tile: Jonathan Petersson
-date: 2025-01-05
+date: 2025-04-11
 ---
 
 # Curriculum Vitae
-<p>Full CV is available upon request.</p>
 
 ## Education
 <p><b>E&#769;cole Polytechnique Fe&#769;de&#769;rale de Lausanne (EPFL)</b><span style="float: right;">2022-2026</span><br>
@@ -45,4 +44,6 @@ Astrophysics I - Introduction to Astrophysics (BSc level)<span style="float: rig
 ## Academic Awards
 <p><i>Markussens Studiefond 2022</i><br>
 <i>Rotary Linne&#769;stipendium 2017</i></p>
+<br>
  
+<i>Full CV is available upon request</i>
