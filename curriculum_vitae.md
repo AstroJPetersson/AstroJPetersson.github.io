@@ -6,6 +6,8 @@ date: 2025-04-11
 
 # Curriculum Vitae
 
+<hr style="width:60%; margin-left: 0%;">
+
 ## Education
 <p><b>E&#769;cole Polytechnique Fe&#769;de&#769;rale de Lausanne (EPFL)</b><span style="float: right;">2022-2026</span><br>
 <i>Doctor of Philosophy in Astrophysics</i></p>

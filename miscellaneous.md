@@ -6,6 +6,8 @@ date: 2025-04-11
 
 # Miscellaneous
 
+<hr style="width:50%; margin-left: 0%;">
+
 ## Talks Available Online
 <p>
     <i>Black Holes on Broadway: The Next Generation of AGN Models in Galaxy Formation</i><br>
