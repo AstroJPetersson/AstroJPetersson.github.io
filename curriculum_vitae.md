@@ -41,11 +41,16 @@ date: 2025-04-11
 Astrophysics IV - Stellar & Galactic Dynamics (MSc level)<span style="float: right;">Spring, 2024/25</span><br>
 Astrophysics III - Galaxy Formation & Evolution (MSc level)<span style="float: right;">Autumn, 2023/24</span><br>
 Astrophysics I - Introduction to Astrophysics (BSc level)<span style="float: right;">Spring, 2023</span></p>
+
+<p><b>Co-Supervisor of TP4 Projects @ EPFL</b><br>
+Elliot Manoli<span style="float: right;">Spring, 2025</span></p>
 <br>
 
 ## Academic Awards
-<p><i>Markussens Studiefond 2022</i><br>
-<i>Rotary Linne&#769;stipendium 2017</i></p>
+<p><i>Markussens Studiefond</i><span style="float: right;">2022</span><br>
+<i>Rotary Linne&#769;stipendium</i><span style="float: right;">2017</span></p>
 <br>
  
+<hr style="width:40%; margin-left: 0%;">
 <i>Full CV is available upon request</i>
+
