@@ -4,11 +4,13 @@
   link: /science.html
   topic: science
   subfolderitems:  
-  - name: Shell Galaxies
+  - name: The Noctua Suite of Simulations
+    link: /noctua_suite.html
+  - name: Colliding Galaxies in a (Nut)Shell
     link: /shell_galaxies.html
-  - name: The Milky Way
+  - name: The Disturbed Outer Milky Way Disc
     link: /milky_way.html
-  - name: Interstellar Objects
+  - name: Capture of Interstellar Objects
     link: /capture_iso.html
 - name: Curriculum Vitae
   link: /curriculum_vitae.html
