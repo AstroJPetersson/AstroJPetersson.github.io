@@ -10,10 +10,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    float: left;
     height: 100%;
     width: 35%;
     overflow: auto;
+    left: 0%;
+    position: fixed;
+    transition: left 0.5s ease;
+    @media (max-width: 950px) {
+        background-color: rgba(207, 207, 196, 0.9);
+        width: 80%;
+    }
 }
 .frontleftcontent{
     color: black;
@@ -27,17 +33,22 @@
 }
 .frontrightstyle{
     background-color: white;
-    margin: 0%;
+    margin-left: 35%;
+    margin-right: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
-    float: left;
     height: 100%;
     width: 65%;
     overflow: auto;
     padding-top: 5%;
     padding-bottom: 5%;
     box-sizing: border-box;
+    position: static;
+    @media (max-width: 950px) {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 .frontrightcontent{
     color: black;
@@ -49,6 +60,10 @@
     max-height: 100%;
     max-width: 900px;
     line-height: 1.2;
+    @media (max-width: 950px) {
+        margin-left: auto;
+        padding-left: 0%;
+    }
 }
 .verticalmenu{
     font-family: TexGyreAdventor;

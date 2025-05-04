@@ -21,7 +21,7 @@
     </script>
 </head>
 <body class="backstyle">
-    <div class="frontleftstyle">
+    <div class="frontleftstyle" id="sidebar">
         <div class="frontleftcontent">
             <!-- Title -->
             <p class="title">PETERSSON<br>Jonathan</p>
@@ -40,8 +40,10 @@
                 <img src="/assets/images/ads.png" alt="ads" style="height: 18pt;"></a>
         </div>
     </div>
-    <div class="frontrightstyle">
-        <div class="frontrightcontent">
+    <div class="frontrightstyle" id="page">
+        <div class="frontrightcontent" id="content">
+            <button class="sidebar-toggle" onclick="toggleSide()" id="sidebutton"><i class="ph ph-caret-double-left"></i></button>
+
             <!-- Main block -->
             {{ content }}
             <br>
@@ -53,6 +55,28 @@
             <br>
         </div>
     </div>
+    
+    <script>
+        function toggleSide() {
+            // Toggle menu visibility
+            document.getElementById("sidebar").classList.toggle("sidebar-close");
+            document.getElementById("sidebutton").classList.toggle("sidebutton-move");
+
+            // Optionally push content page and content
+            document.getElementById("page").classList.toggle("push-page");
+            document.getElementById("content").classList.toggle("push-content");
+        }
+        // Button element
+        const button = document.getElementById('sidebutton');
+        button.addEventListener('click', function() {
+            // Check current text and swap it
+            if (this.innerHTML === '<i class="ph ph-caret-double-left"></i>') {
+                this.innerHTML = '<i class="ph ph-caret-double-right"></i>';
+            } else {
+                this.innerHTML = '<i class="ph ph-caret-double-left"></i>';
+            }
+       });
+    </script>
 </body>
 </html>
 
