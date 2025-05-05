@@ -12,7 +12,11 @@
     link: /milky_way.html
   - name: Capture of ISOs in the Solar System
     link: /capture_iso.html
+- name: Technical Projects
+  link: /technical_projects.html
 - name: Curriculum Vitae
   link: /curriculum_vitae.html
 - name: Miscellaneous
   link: /miscellaneous.html
+- name: Contact
+  link: /Contact.html
