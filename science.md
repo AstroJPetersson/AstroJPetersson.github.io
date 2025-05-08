@@ -1,7 +1,7 @@
 ---
 layout: default
 tile: Jonathan Petersson
-topic: research
+topic: science
 date: 2025-04-11
 ---
 

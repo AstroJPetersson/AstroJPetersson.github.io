@@ -3,7 +3,7 @@
 - name: Scientific Research
   link: /science.html
   topic: science
-  subfolderitems:  
+  sciencefolderitems:  
   - name: The Noctua Suite of Simulations
     link: /noctua_suite.html
   - name: Colliding Galaxies in a (Nut)Shell
@@ -12,10 +12,16 @@
     link: /milky_way.html
   - name: Capture of ISOs in the Solar System
     link: /capture_iso.html
-- name: Technical Projects
-  link: /technical_projects.html
 - name: Curriculum Vitae
   link: /curriculum_vitae.html
+- name: Technical Projects
+  topic: tech
+  link: /technical_projects.html
+  techfolderitems:
+  - name: The Vatpy Code
+    link: /vatpy.html
+  - name: This Website
+    link: /website.html
 - name: Miscellaneous
   link: /miscellaneous.html
 - name: Contact

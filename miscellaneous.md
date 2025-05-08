@@ -1,7 +1,7 @@
 ---
 layout: default
 tile: Jonathan Petersson
-date: 2025-04-11
+date: 2025-05-08
 ---
 
 # Miscellaneous
@@ -23,7 +23,7 @@ date: 2025-04-11
     Collection of photos from some of my hikes: <a class="link" href="https://vsco.co/astrojpetersson">https://vsco.co/astrojpetersson</a><br><br>
     List of races I have participated in:
 </p>
-<table>
+<table style="margin-bottom: 2%;">
     <tr>
         <th>Race</th>
         <th>Location</th>
@@ -43,4 +43,3 @@ date: 2025-04-11
         <td style="width: 100px;">01:58</td>
     </tr>
 </table>
-

@@ -115,6 +115,20 @@
     border-radius: 0%;
     margin-bottom: 2%;
 }
+.techmenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.techproj{
+    font-size: 16pt;
+    text-align: left;
+    width: 100%;
+}
+.techicon{
+    height: 24pt;
+}
 hr{
     border: 1px solid black;
 }

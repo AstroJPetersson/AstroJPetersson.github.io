@@ -53,4 +53,3 @@ Elliot Manoli<span style="float: right;">Spring, 2025</span></p>
  
 <hr style="width:40%; margin-left: 0%;">
 <i>Full CV is available upon request</i>
-
