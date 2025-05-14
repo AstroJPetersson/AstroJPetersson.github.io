@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Phosphor icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="backstyle">
+    <div class="frontleftstyle" id="sidebar">
+        <div class="frontleftcontent">
+            <!-- Title -->
+            <p class="title">PETERSSON<br>Jonathan</p>
+            <p class="desc">Doctoral Student in Theoretical & Computational Astrophysics @ EPFL</p>
+            <hr>
+            <!-- Navigation -->
+            {% include navigation.html %}
+            <br>
+            <!-- Contact details -->
+            <a href="mailto:astrojpetersson@gmail.com" class="contact"><i class="ph ph-envelope"></i></a>
+            <a href="www.linkedin.com/in/astrojpetersson" class="contact"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="https://github.com/AstroJPetersson" class="contact"><i class="ph ph-github-logo"></i></a>
+            <a href="https://orcid.org/0000-0001-7248-3898">
+                <img src="/assets/images/orcid.png" alt="orcid" style="height: 18pt;"></a>
+            <a href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=author%3A%22Petersson%2C%20Jonathan%22%20year%3A2022-&sort=date%20desc%2C%20bibcode%20desc&p_=0">
+                <img src="/assets/images/ads.png" alt="ads" style="height: 18pt;"></a>
+        </div>
+    </div>
+    <div class="frontrightstyle" id="page">
+        <div class="frontrightcontent" id="content">
+            <button class="sidebar-toggle" onclick="toggleSide()" id="sidebutton"><i class="ph ph-caret-double-left"></i></button>
+
+            <!-- Main block -->
+            {{ content }}
+            <br>
+            <!-- End block -->
+            <div class="credits">
+                <p>Copyright &#169; Jonathan Petersson 2025</p>
+                <p>{{ page.date }}</p>
+            </div>
+            <br>
+        </div>
+    </div>
+    
+    <script>
+        function toggleSide() {
+            // Toggle menu visibility
+            document.getElementById("sidebar").classList.toggle("sidebar-close");
+            document.getElementById("sidebutton").classList.toggle("sidebutton-move");
+
+            // Optionally push content page and content
+            document.getElementById("page").classList.toggle("push-page");
+            document.getElementById("content").classList.toggle("push-content");
+        }
+        // Button element
+        const button = document.getElementById('sidebutton');
+        button.addEventListener('click', function() {
+            // Check current text and swap it
+            if (this.innerHTML === '<i class="ph ph-caret-double-left"></i>') {
+                this.innerHTML = '<i class="ph ph-caret-double-right"></i>';
+            } else {
+                this.innerHTML = '<i class="ph ph-caret-double-left"></i>';
+            }
+       });
+    </script>
+    
+    <!-- 100% privacy-first analytics -->
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+/* CSS */
+.backstyle{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.frontleftstyle{
+    background-color: rgb(207, 207, 196);
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+    overflow: auto;
+    left: 0%;
+    position: fixed;
+    transition: left 0.5s ease;
+    @media (max-width: 950px) {
+        background-color: rgba(207, 207, 196, 0.9);
+        width: 80%;
+    }
+}
+.frontleftcontent{
+    color: black;
+	font-size: 18pt;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 7%;
+    width: 70%;
+    max-height: 100%;
+    max-width: 400px;
+    line-height: 1.2;
+}
+.frontrightstyle{
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+    overflow: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    position: static;
+    @media (max-width: 950px) {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.frontrightcontent{
+    color: black;
+    font-size: 14pt;
+    text-align: left;
+    margin-right: auto;
+    padding-left: 2.93%;
+    width: 90%;
+    max-height: 100%;
+    max-width: 900px;
+    line-height: 1.2;
+    @media (max-width: 950px) {
+        margin-left: auto;
+        padding-left: 0%;
+    }
+}
+.verticalmenu{
+    font-family: TexGyreAdventor;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.title{
+    font-family: TexGyreAdventor;
+    font-weight: bold;
+    font-size: 32pt;
+    margin: 0pt;
+}
+.desc{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 14pt;
+}
+.credits{
+    font-family: TexGyreAdventor;
+    font-size: 10pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile{
+    margin-left: 7%;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+.scimenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.scitopic{
+    font-size: 16pt;
+    text-align: center;
+    width: 50%;
+    margin-top: 4%; 
+    margin-bottom: 4%;
+}
+.sciicon{
+    width: 40%;
+    border: 0px solid black;
+    border-radius: 0%;
+    margin-bottom: 2%;
+}
+.techmenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.techproj{
+    font-size: 16pt;
+    text-align: left;
+    width: 100%;
+}
+.techicon{
+    height: 24pt;
+}
+hr{
+    border: 1px solid black;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 4px;
+}
+html, body {
+    font-family: TexGyreAdventor;
+    font-size: 12pt;
+    height: 100%;
+    min-height: 100%;
+}
+@font-face {
+    font-family: texGyreAdventor;
+    src: url(fonts/texgyreadventor-regular.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(fonts/texgyreadventor-bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(fonts/texgyreadventor-italic.otf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(fonts/texgyreadventor-italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
