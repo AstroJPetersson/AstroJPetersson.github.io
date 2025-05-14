@@ -1,1 +1,1 @@
-My personal website: [astrojpetersson.github.io](astrojpetersson.github.io)
+My personal website: [astrojpetersson.github.io](https://astrojpetersson.github.io/)
