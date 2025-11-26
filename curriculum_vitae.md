@@ -38,12 +38,12 @@ date: 2025-04-11
 
 ## Teaching
 <p><b>Teaching Assistant @ EPFL</b><br>
+Astrophysics III - Galaxy Formation & Evolution (MSc level)<span style="float: right;">Autumn, 2023/24/25</span><br>
 Astrophysics IV - Stellar & Galactic Dynamics (MSc level)<span style="float: right;">Spring, 2024/25</span><br>
-Astrophysics III - Galaxy Formation & Evolution (MSc level)<span style="float: right;">Autumn, 2023/24</span><br>
 Astrophysics I - Introduction to Astrophysics (BSc level)<span style="float: right;">Spring, 2023</span></p>
 
-<p><b>Co-Supervisor of TP4 Projects @ EPFL</b><br>
-Elliot Manoli<span style="float: right;">Spring, 2025</span></p>
+<p><b>Supervision of Student Projects @ EPFL</b><br>
+Elliot Manoli, Semester Project & MSc Thesis<span style="float: right;">2025</span></p>
 <br>
 
 ## Academic Awards
