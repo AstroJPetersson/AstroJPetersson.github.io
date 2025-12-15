@@ -4,7 +4,7 @@
   link: /science.html
   topic: science
   sciencefolderitems:  
-  - name: The Noctua Suite of Simulations
+  - name: NOCTUA Suite of Simulations
     link: /noctua_suite.html
   - name: Colliding Galaxies in a (Nut)Shell
     link: /shell_galaxies.html
