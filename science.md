@@ -13,7 +13,7 @@ date: 2025-04-11
     <div class="scitopic">
         <a class="inactivebutton" href="noctua_suite.html">
         <img src="assets/images/noctua_suite_v3.png" alt="noctua_suite" class="sciicon"><br>
-        <b>The Noctua Suite of Simulations</b><br>Petersson et al. (2025)
+        <b>NOCTUA Suite of Simulations</b><br>Petersson et al. (2025)
         </a>
     </div>
     <div class="scitopic">

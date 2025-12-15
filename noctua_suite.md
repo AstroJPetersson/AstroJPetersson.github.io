@@ -5,7 +5,7 @@ topic: science
 date: 2025-04-11
 ---
 
-# The Noctua Suite of Simulations
+# NOCTUA Suite of Simulations
 
 <i>Under construction...</i>
 
