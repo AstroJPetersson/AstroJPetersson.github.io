@@ -1,7 +1,51 @@
 /* CSS */
 .blogstyle{
     background-color: hsl(222, 46%, 11%);
-    color: white;
     margin: 0%;
     padding: 0%;
+}
+
+.blogcolumn{
+    color: white;
+    margin: auto;
+    overflow: auto;
+    width: 40%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.blogcolumnheader{
+    font-family: AnonymousPro;
+    font-weight: bold;
+    text-align: right;
+}
+
+.blogcolumncontent{
+    font-family: AnonymousPro;
+    font-weight: normal;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
 }
