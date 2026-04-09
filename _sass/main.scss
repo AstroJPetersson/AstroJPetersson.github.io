@@ -82,6 +82,9 @@
     font-style: italic;
     font-size: 14pt;
 }
+.iconsize{
+    font-size: 20pt;
+}
 .credits{
     font-family: TexGyreAdventor;
     font-size: 10pt;
@@ -96,20 +99,59 @@
     border-radius: 10px;
     border-collapse: collapse;
 }
-.scimenu{
+.more{
+    display: flex;
+    justify-content: left;
+}
+.moreselect{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 2%;
+    padding: 1%;
+}
+.moretext{
+    color: black;
+    text-decoration: none;
+}
+.moreicon{
+    font-size: 14pt;
+}
+.sci{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.scitopic{
+.sciselect{
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    width: 30%;
+}
+.scitext{
+    font-size: 18pt;
+    color: black;
+    text-decoration: none;
+}
+.sciicon{
+    font-size: 72pt;
+}
+.resmenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.restopic{
     font-size: 16pt;
     text-align: center;
     width: 50%;
     margin-top: 4%; 
     margin-bottom: 4%;
 }
-.sciicon{
+.resicon{
     width: 40%;
     border: 0px solid black;
     border-radius: 0%;

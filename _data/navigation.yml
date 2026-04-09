@@ -1,28 +1,32 @@
 - name: About Me
   link: /
-- name: Scientific Research
+- name: Science
   link: /science.html
   topic: science
-  sciencefolderitems:  
-  - name: NOCTUA Suite of Simulations
-    link: /noctua_suite.html
-  - name: Colliding Galaxies in a (Nut)Shell
-    link: /shell_galaxies.html
-  - name: The Disturbed Outer Milky Way Disc
-    link: /milky_way.html
-  - name: Capture of ISOs in the Solar System
-    link: /capture_iso.html
-- name: Curriculum Vitae
-  link: /curriculum_vitae.html
-- name: Technical Projects
-  topic: tech
-  link: /technical_projects.html
-  techfolderitems:
-  - name: The Vatpy Code
-    link: /vatpy.html
-  - name: This Website
-    link: /website.html
-- name: Miscellaneous
-  link: /miscellaneous.html
+  sciencefolderitems:
+  - name: Research Projects
+    link: /research_projects.html
+    subtopic: research
+    researchfolderitems:
+    - name: NOCTUA Suite of Simulations
+      link: /noctua_suite.html
+    - name: Colliding Galaxies in a (Nut)Shell
+      link: /shell_galaxies.html
+    - name: The Disturbed Outer Milky Way Disc
+      link: /milky_way.html
+    - name: Capture of ISOs in the Solar System
+      link: /capture_iso.html
+  - name: Technical Work
+    link: /technical_projects.html
+    subtopic: tech
+    techfolderitems:
+    - name: The Vatpy Code
+      link: /vatpy.html
+    - name: This Website
+      link: /website.html
+  - name: Conference Talks
+    link: /talks.html
+- name: Blog
+  link: /blog.html
 - name: Contact
   link: /contact.html

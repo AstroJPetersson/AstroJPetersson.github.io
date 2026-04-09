@@ -1,7 +1,11 @@
 ---
-layout: blog
+layout: default
 tile: Jonathan Petersson
-date: 2026-02-03
+date: 2026-04-08
 ---
 
-# Content
+# Blog
+<hr style="width:30%; margin-left: 0%;">
+
+<i>Under construction...</i>
+

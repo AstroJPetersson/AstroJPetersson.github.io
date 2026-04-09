@@ -12,14 +12,23 @@
                 {% else %}
                     <a href="{{ subitem.link }}" class="inactivebutton" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
                 {% endif %}
-            {% endfor %}
-        {% endif %}
-        {% if page.topic == 'tech' %}
-            {% for subitem in item.techfolderitems %}
-                {% if subitem.link == page.url %}
-                    <a href="{{ subitem.link }}" class="activebutton" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
-                {% else %}
-                    <a href="{{ subitem.link }}" class="inactivebutton" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
+                {% if page.subtopic == 'research' %}
+                    {% for subsubitem in subitem.researchfolderitems %}
+                        {% if subsubitem.link == page.url %}
+                            <a href="{{ subsubitem.link }}" class="activebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
+                        {% else %}
+                    <a href="{{ subsubitem.link }}" class="inactivebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {% if page.subtopic == 'tech' %}
+                    {% for subsubitem in subitem.techfolderitems %}
+                        {% if subsubitem.link == page.url %}
+                            <a href="{{ subsubitem.link }}" class="activebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
+                        {% else %}
+                            <a href="{{ subsubitem.link }}" class="inactivebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
+                        {% endif %}
+                    {% endfor %}
                 {% endif %}
             {% endfor %}
         {% endif %}

@@ -5,23 +5,16 @@ date: 2025-05-08
 ---
 
 # Miscellaneous
-
 <hr style="width:50%; margin-left: 0%;">
-
-## Talks Available Online
-<p>
-    <i>Black Holes on Broadway: The Next Generation of AGN Models in Galaxy Formation</i><br>
-    New York, USA - December 2023<br>
-    <a class="link" href="https://www.simonsfoundation.org/video/black-holes-on-broadway-day-1-session-2/"><b>Contributed Talk</b></a>
-</p>
-<br>
 
 ## Hobbies
 <p>
-    In my free time I like spending time in nature, especially hiking.  
-    I also enjoy running and occasionally participate in races.<br><br>
-    Collection of photos from some of my hikes: <a class="link" href="https://vsco.co/astrojpetersson">https://vsco.co/astrojpetersson</a><br><br>
-    List of races I have participated in:
+In my free time I like spending time in nature, especially hiking. 
+I also enjoy running and occasionally participate in races.<br><br>
+Collection of photos from some of my hikes: 
+<a class="link" href="https://vsco.co/astrojpetersson">
+https://vsco.co/astrojpetersson</a><br><br>
+List of races I have participated in:
 </p>
 <table style="margin-bottom: 2%;">
     <tr>

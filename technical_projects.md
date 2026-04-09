@@ -1,12 +1,12 @@
 ---
 layout: default
 tile: Technical Projects
-topic: tech
+topic: science
+subtopic: tech
 date: 2025-05-08
 ---
 
-# Technical Projects
-
+# Technical Work
 <hr style="width:60%; margin-left: 0%;">
 
 <div class="techmenu">
