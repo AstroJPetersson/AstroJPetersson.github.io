@@ -22,8 +22,6 @@
     techfolderitems:
     - name: The Vatpy Code
       link: /vatpy.html
-    - name: This Website
-      link: /website.html
   - name: Conference Talks
     link: /talks.html
 - name: Blog

@@ -8,10 +8,10 @@ date: 2025-05-08
 
 # The Vatpy Code
 
-<img class="right" style="margin-left: 2%; margin-bottom: 2%;"
+<img class="right" style="margin-left: 2%; margin-bottom: 1%;"
 src="/assets/images/vatpy.png" alt="vatpy" width="40%" height="100%">
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
 Vatpy (Visualisation of Arepo in the Terminal using PYthon) is a light-weight,
 highly customisable, visualisation tool-kit for astrophysical simulations performed
 using the Arepo code (Springel 2010).<br><br>
@@ -27,5 +27,4 @@ https://github.com/vatpy-code/vatpy</a>,
 and for more details on how you can use Vatpy in your own work, please visit the official 
 documentation page: <a class="link" href="https://vatpy-code.github.io/vatpy/">
 https://vatpy-code.github.io/vatpy</a>.
-</p>
-
+</div>

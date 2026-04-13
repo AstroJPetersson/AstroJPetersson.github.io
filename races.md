@@ -4,18 +4,10 @@ tile: Jonathan Petersson
 date: 2025-05-08
 ---
 
-# Miscellaneous
-<hr style="width:50%; margin-left: 0%;">
+# Running
+<hr style="width:40%; margin-left: 0%;">
 
-## Hobbies
-<p>
-In my free time I like spending time in nature, especially hiking. 
-I also enjoy running and occasionally participate in races.<br><br>
-Collection of photos from some of my hikes: 
-<a class="link" href="https://vsco.co/astrojpetersson">
-https://vsco.co/astrojpetersson</a><br><br>
 List of races I have participated in:
-</p>
 <table style="margin-bottom: 2%;">
     <tr>
         <th>Race</th>
