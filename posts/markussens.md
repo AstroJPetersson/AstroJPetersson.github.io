@@ -7,7 +7,7 @@ date: 2026-04-13
 # Markussens Forskarstipendium
 <hr style="width:80%; margin-left: 0%;">
 
-*Swedish*
+*Only Available in Swedish*
 
 Den 11 april 2026 hade jag äran att få ta emot ett av fyra utdelade forskarstipendium från 
 <a href="https://markussens.se" class="link">Markussens Studiefond</a> på Teleborgs Slott 
