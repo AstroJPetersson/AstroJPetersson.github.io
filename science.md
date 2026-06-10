@@ -83,8 +83,7 @@ LUP Student Papers</a>
 <hr style="width:40%; margin-left: 0%;">
 
 <h2 id="vatpy">The VATPY Code</h2>
-<img class="right" style="margin-left: 2%; margin-bottom: 2%;"
-src="/assets/images/vatpy.png" alt="vatpy" width="40%" height="100%">
+<img class="right plot" src="/assets/images/vatpy.png" alt="vatpy" width="40%" height="100%">
 <div style="text-align: left;">
 Vatpy (Visualisation of Arepo in the Terminal using PYthon) is a light-weight,
 highly customisable, visualisation tool-kit for astrophysical simulations performed

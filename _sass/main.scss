@@ -104,10 +104,16 @@
  * Styling options for right content *
  * ================================= */
 .profile{
-    margin-left: 7%;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 100px;
     border-collapse: collapse;
+}
+.plot{
+    border: 1px solid black;
+    border-radius: 0px;
+    border-collapse: collapse;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 .lastupdated{
     font-family: AnonymousPro;
