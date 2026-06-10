@@ -115,6 +115,17 @@
     margin-left: 2%;
     margin-bottom: 2%;
 }
+.talk{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.talk-info{
+    width: 70%;
+}
+.talk-slide{
+    width: 16%;
+}
 .lastupdated{
     font-family: AnonymousPro;
     font-size: 10pt;
