@@ -4,7 +4,7 @@ tile: Jonathan Petersson
 date: 2026-04-08
 ---
 
-# Curriculum Vitae
+# Short Curriculum Vitae
 <hr style="width:60%; margin-left: 0%;">
 
 ## Education
@@ -38,8 +38,3 @@ Rotary Linne&#769;stipendium<span style="float: right;">2017</span><br>
 
 <p>ALVA Board Member<span style="float: right;">2018-2021</span><br>
 <i style="font-size: 10pt;">Lund University Academic Society’s Astronomy Club</i></p>
-<br>
- 
-<hr style="width:40%; margin-left: 0%;">
-Full CV is available upon request
-

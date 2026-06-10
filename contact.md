@@ -17,4 +17,3 @@ astrojpetersson@gmail.com<a>
 Observatoire de Sauverny, <a href="https://plan.epfl.ch/?room==SAUV%20347" class="link">
 SAUV 347</a><br>
 CH-1290 Versoix, Switzerland
-

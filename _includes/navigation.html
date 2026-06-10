@@ -1,33 +1,16 @@
 <nav class="verticalmenu">
     {% for item in site.data.navigation %}
         {% if item.link == page.url %}
-            <a href="{{ item.link }}" class="activebutton">{{ item.name }}</a><br>
+            <a href="{{ item.link }}" class="activebutton-nav">{{ item.name }}</a><br>
         {% else %}
-            <a href="{{ item.link }}" class="inactivebutton">{{ item.name }}</a><br>
+            <a href="{{ item.link }}" class="inactivebutton-nav">{{ item.name }}</a><br>
         {% endif %}
-        {% if page.topic == 'science' %}
-            {% for subitem in item.sciencefolderitems %}
-                {% if subitem.link == page.url %}
-                    <a href="{{ subitem.link }}" class="activebutton" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
-                {% else %}
-                    <a href="{{ subitem.link }}" class="inactivebutton" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
-                {% endif %}
-                {% if page.subtopic == 'research' %}
-                    {% for subsubitem in subitem.researchfolderitems %}
-                        {% if subsubitem.link == page.url %}
-                            <a href="{{ subsubitem.link }}" class="activebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
-                        {% else %}
-                    <a href="{{ subsubitem.link }}" class="inactivebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-                {% if page.subtopic == 'tech' %}
-                    {% for subsubitem in subitem.techfolderitems %}
-                        {% if subsubitem.link == page.url %}
-                            <a href="{{ subsubitem.link }}" class="activebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
-                        {% else %}
-                            <a href="{{ subsubitem.link }}" class="inactivebutton" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
-                        {% endif %}
+        {% if page.topic == 'science' and item.subitems %}
+            {% for subitem in item.subitems %}
+                <a href="{{ subitem.link }}" class="inactivebutton-nav" style="font-size: 14pt; font-weight: normal;">{{ subitem.name }}</a><br>
+                {% if subitem.subsubitems %}
+                    {% for subsubitem in subitem.subsubitems %}
+                        <a href="{{ subsubitem.link }}" class="inactivebutton-nav" style="font-size: 10pt; font-weight: normal;">{{ subsubitem.name }}</a><br>
                     {% endfor %}
                 {% endif %}
             {% endfor %}

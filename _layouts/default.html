@@ -15,9 +15,12 @@
     <div class="frontleftstyle" id="sidebar">
         <div class="frontleftcontent">
             <!-- Title -->
+            {% if page.topic == 'aboutme' %}
+            <img class="right profile" src="/assets/images/profile4.png" alt="profile_picture" width="25%" height="100%">
+            {% endif %}
             <p class="title">JONATHAN<br>PETERSSON</p>
             <p class="desc">Doctoral Student in Theoretical & Computational Astrophysics @ EPFL</p>
-            <hr>
+            <hr class="hr-nav">
             <!-- Navigation -->
             {% include navigation.html %}
             <br>
@@ -25,28 +28,32 @@
             <a href="mailto:astrojpetersson@gmail.com" class="contact"><i class="ph ph-envelope iconsize"></i></a>
             <a href="https://linkedin.com/in/astrojpetersson" class="contact"><i class="ph ph-linkedin-logo iconsize"></i></a>
             <a href="https://github.com/AstroJPetersson" class="contact"><i class="ph ph-github-logo iconsize"></i></a>
+            <a href="https://codeberg.org/AstroJPetersson" class="contact">
+                <img src="/assets/images/codeberg.svg" alt="codeberg" style="height: 18pt;"></a>
             <a href="https://orcid.org/0000-0001-7248-3898">
                 <img src="/assets/images/orcid.png" alt="orcid" style="height: 18pt;"></a>
             <a href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=author%3A%22Petersson%2C%20Jonathan%22%20year%3A2022-&sort=date%20desc%2C%20bibcode%20desc&p_=0">
-                <img src="/assets/images/ads.png" alt="ads" style="height: 18pt;"></a>
+                <img src="/assets/images/ads_horizontal_light.svg" alt="ads" style="height: 18pt; border-radius: 10px;"></a>
+            <br><br>
+            <p class="websiteinfo">
+                <i class="ph ph-copyright websiteinfo-iconsize"></i> 2026 J. Petersson. All Rights Reserved.<br>
+                <a href="./website.html" class="websiteinfo" style="text-decoration: underline"><i class="ph ph-info websiteinfo-iconsize"></i> More information about this website.</a><br>
+            </p>
         </div>
     </div>
     <div class="frontrightstyle" id="page">
         <div class="frontrightcontent" id="content">
             <button class="sidebar-toggle" onclick="toggleSide()" id="sidebutton"><i class="ph ph-caret-double-left"></i></button>
-
             <!-- Main block -->
             {{ content }}
             <br>
             <!-- End block -->
-            <div class="credits">
-                <p>Copyright &#169; Jonathan Petersson 2025</p>
-                <p>{{ page.date }}</p>
+            <div class="lastupdated">
+                <p>Last updated: {{ page.date }}</p>
             </div>
             <br>
         </div>
     </div>
-    
     <script>
         function toggleSide() {
             // Toggle menu visibility
@@ -68,9 +75,7 @@
             }
        });
     </script>
-    
     <!-- 100% privacy-first analytics -->
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-
 </body>
 </html>

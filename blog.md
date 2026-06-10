@@ -11,4 +11,3 @@ date: 2026-04-13
 <a href="./posts/markussens.html" class="blogpost">
 [2026-04-13] **Markussens Forskarstipendium**
 </a>
-

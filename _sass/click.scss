@@ -1,3 +1,6 @@
+/* =============== *
+ * General buttons *
+ * =============== */
 .activebutton{
     color: black;
     text-decoration: underline;
@@ -12,14 +15,85 @@
     color: black;
     text-decoration: underline;
 }
+
+/* ================== *
+ * Navigation buttons *
+ * ================== */
+.activebutton-nav{
+    color: white;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+.inactivebutton-nav{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.inactivebutton-nav:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* ============= *
+ * Contact icons *
+ * ============= */
 .contact{
-    color: black;
+    color: white;
     text-decoration: none;
 }
+
+/* ============ *
+ * General link *
+ * ============ */
 .link{
     color: black;
     text-decoration: underline;
 }
+
+/* ======== *
+ * DOI link *
+ * ======== */
+.doi{
+    color: purple;
+    text-decoration: underline;
+}
+
+/* ============= *
+ * More about me *
+ * ============= */
+.moreaboutme{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.moreaboutme-option{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    display: block;
+    font-size: 16pt;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    width: 25%;
+}
+.moreaboutme-option:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.moreaboutme-text{
+    color: black;
+    font-size: 16pt;
+    text-decoration: none;
+}
+.moreaboutme-iconsize{
+    font-size: 18pt;
+}
+
+/* ========== *
+ * Blog posts *
+ * ========== */
 .blogpost{
     font-size: 14pt;
     color: black;
@@ -28,8 +102,12 @@
 .blogpost:hover{
     text-decoration: underline;
 }
+
+/* ============== *
+ * Sidebar button *
+ * ============== */
 .sidebar-toggle{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(207, 207, 196);
     color: black;
     font-size: 16pt;
     left: auto;
@@ -44,11 +122,11 @@
     z-index: 1001;
     position: fixed;
     @media (max-width: 950px) {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(207, 207, 196, 0.6);
         right: 20%;
     }
     @media (max-height: 850px) {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(207, 207, 196, 0.6);
     }
 }
 .sidebar-toggle:hover{
@@ -75,12 +153,12 @@
     padding-left: 0%;
 }
 .sidebutton-move{
-    background-color: rgb(207, 207, 196);
+    background-color: rgb(8, 37, 103);
+    color: white;
     left: 0%;
     right: auto;
     border-radius: 0px 7px 7px 0px;
     @media (max-width: 950px) {
-        background-color: rgba(207, 207, 196, 0.7);
+        background-color: rgba(8, 37, 103, 0.6);
     }
 }
-
