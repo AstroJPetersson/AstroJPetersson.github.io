@@ -4,21 +4,21 @@
   link: /science.html
   subitems:
   - name: Research Projects
-    link: /science.html/#research-projects
+    link: /science.html#research-projects
     subsubitems:
     - name: NOCTUA Suite of Simulations
-      link: /science.html/#noctua-simulations
+      link: /science.html#noctua-simulations
     - name: Colliding Galaxies in a (Nut)Shell
-      link: /science.html/#shell-galaxies
+      link: /science.html#shell-galaxies
     - name: The Disturbed Outer Milky Way Disc
-      link: /science.html/#milky-way
+      link: /science.html#milky-way
     - name: Capture of ISOs in the Solar System
-      link: /science.html/#capture-iso
+      link: /science.html#capture-iso
   - name: Technical Work
-    link: /science.html/#technical-work
+    link: /science.html#technical-work
     subsubitems:
     - name: The VATPY Code
-      link: /science.html/#vatpy
+      link: /science.html#vatpy
 - name: Blog
   link: /blog.html
 - name: Contact
