@@ -1,7 +1,7 @@
 ---
 layout: default
 tile: Jonathan Petersson
-date: 2026-06-10
+date: 2026-08-20
 ---
 
 # List of Talks
