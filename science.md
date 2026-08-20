@@ -18,9 +18,14 @@ date: 2026-06-10
 **MSc Thesis Project (2022); Petersson et al. (2023)**
 <div style="text-align: left;">
 <div class="right" style="width: 40%; height: 100%; margin-left: 4%;">
+<video width="100%" height="280px" controls>
+    <source src="/assets/movies/shellgalaxy.mp4" type="video/mp4">
+</video>
+<!--
 <iframe width="100%" height="210px" src="https://www.youtube.com/embed/ddDkNbl4GWQ"
     title="YouTube video player" frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+-->
 <p style="font-size: 10pt; text-align: left;">
 Simulation of two colliding disc galaxies (1:2 mass ratio), merging into a shell galaxy. 
 The gas of the two systems is shown in blue, while old and newly formed stellar 
@@ -47,9 +52,14 @@ MNRAS</a><br>
 **Summer Research Project (2021); McMillan & Petersson et al. (2022)**
 <div style="text-align: left;">
 <div class="right" style="width: 40%; height: 100%; margin-left: 4%;">
+<video width="100%" height="220px" controls>
+    <source src="/assets/movies/milkyway.mp4" type="video/mp4">
+</video>
+<!--
 <iframe width="100%" height="200px" src="https://www.youtube.com/embed/wjMdySvuJRg"
     title="YouTube video player" frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+-->
 <p style="font-size: 10pt; text-align: left;">
 Simulation of a Milky Way-like galaxy being perturb by a Sagittarius-like dwarf galaxy impact (represented by a point particle).
 </p>
@@ -83,7 +93,9 @@ LUP Student Papers</a>
 <hr style="width:40%; margin-left: 0%;">
 
 <h2 id="vatpy">The VATPY Code</h2>
+<!--
 <img class="right plot" src="/assets/images/vatpy.png" alt="vatpy" width="40%" height="100%">
+-->
 <div style="text-align: left;">
 Vatpy (Visualisation of Arepo in the Terminal using PYthon) is a light-weight,
 highly customisable, visualisation tool-kit for astrophysical simulations performed
