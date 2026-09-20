@@ -104,10 +104,8 @@ Many of its functionalities can be generally applied to simulations made by Arep
 (as long as the output is in HDF5-format), however, more specific capabilities,
 such as creating visual maps of the gas chemistry, is at the moment only adapted to
 simulations run using the ArepoNoctua numerical framework (Petersson et al. 2025).<br><br>
-For more details, please visit the official Vatpy repository:
-<a class="link" href="https://github.com/vatpy-code/vatpy">
-https://github.com/vatpy-code/vatpy</a>,
+For more details, please visit the official Vatpy repository on 
+<a class="link" href="https://codeberg.org/NOCTUA-PROJECT/vatpy">Codeberg</a>,
 and for more details on how you can use Vatpy in your own work, please visit the official 
-documentation page: <a class="link" href="https://vatpy-code.github.io/vatpy/">
-https://vatpy-code.github.io/vatpy</a>.
+<a class="link" href="https://codeberg.org/NOCTUA-PROJECT/vatpy/wiki">Wiki page</a>.
 </div>
