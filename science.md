@@ -2,7 +2,7 @@
 layout: default
 tile: Jonathan Petersson
 topic: science
-date: 2026-06-10
+date: 2026-10-08
 ---
 
 <h1 id="research-projects">Research Projects</h1>
@@ -93,9 +93,6 @@ LUP Student Papers</a>
 <hr style="width:40%; margin-left: 0%;">
 
 <h2 id="vatpy">The VATPY Code</h2>
-<!--
-<img class="right plot" src="/assets/images/vatpy.png" alt="vatpy" width="40%" height="100%">
--->
 <div style="text-align: left;">
 Vatpy (Visualisation of Arepo in the Terminal using PYthon) is a light-weight,
 highly customisable, visualisation tool-kit for astrophysical simulations performed
@@ -104,8 +101,8 @@ Many of its functionalities can be generally applied to simulations made by Arep
 (as long as the output is in HDF5-format), however, more specific capabilities,
 such as creating visual maps of the gas chemistry, is at the moment only adapted to
 simulations run using the ArepoNoctua numerical framework (Petersson et al. 2025).<br><br>
-For more details, please visit the official Vatpy repository on 
-<a class="link" href="https://codeberg.org/NOCTUA-PROJECT/vatpy">Codeberg</a>,
-and for more details on how you can use Vatpy in your own work, please visit the official 
-<a class="link" href="https://codeberg.org/NOCTUA-PROJECT/vatpy/wiki">Wiki page</a>.
-</div>
+At the moment, Vatpy is only accesible via the 
+<a class="link" href="https://codeberg.org/NOCTUA-PROJECT/">NOCTUA project page</a>,
+and is therefore only available to invited members. If you wish to use Vatpy in your own
+work and be a part of the development of the code, or would just like some more information, please
+reach out via e-mail.
