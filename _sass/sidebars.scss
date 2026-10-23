@@ -1,0 +1,71 @@
+/* ================================== *
+ * Styling of left and right sidebars *
+ * ================================== */
+.backstyle{
+    background-color: rgb(207, 207, 196);
+    margin: 0%;
+    padding: 0%;
+}
+.frontleftstyle{
+    background-color: rgb(8, 37, 103);
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+    overflow: auto;
+    left: 0%;
+    position: fixed;
+    transition: left 0.5s ease;
+    @media (max-width: 950px) {
+        background-color: rgba(8, 37, 103, 0.9);
+        width: 80%;
+    }
+}
+.frontleftcontent{
+    color: white;
+	font-size: 18pt;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 7%;
+    width: 70%;
+    max-height: 100%;
+    max-width: 400px;
+    line-height: 1.2;
+}
+.frontrightstyle{
+    background-color: rgb(207, 207, 196);
+    margin-left: 35%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+    overflow: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    position: static;
+    @media (max-width: 950px) {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.frontrightcontent{
+    color: black;
+    font-size: 14pt;
+    text-align: left;
+    margin-right: auto;
+    padding-left: 2.93%;
+    width: 90%;
+    max-height: 100%;
+    max-width: 900px;
+    line-height: 1.2;
+    @media (max-width: 950px) {
+        margin-left: auto;
+        padding-left: 0%;
+    }
+}
+

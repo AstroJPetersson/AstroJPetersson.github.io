@@ -8,10 +8,9 @@ date: 2025-05-08
 <hr style="width:100%; margin-left: 0%;">
 
 <p style="text-align: left;">
-<b>E-mail:</b><br>
+<b>E-mail:</b>
 <a href="mailto:jonathan.petersson@epfl.ch" class="link">jonathan.petersson@epfl.ch</a>
-OR <a href="mailto:astrojpetersson@gmail.com" class="link">astrojpetersson@gmail.com<a>
-<p>
+</p>
 
 <br>
 
@@ -22,4 +21,4 @@ OR <a href="mailto:astrojpetersson@gmail.com" class="link">astrojpetersson@gmail
 Observatoire de Sauverny,
 <a href="https://plan.epfl.ch/?room==SAUV%20347" class="link">SAUV 347</a><br>
 CH-1290 Versoix, Switzerland
-<p>
+</p>

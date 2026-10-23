@@ -1,0 +1,138 @@
+/* ========================== *
+ * Styling options for header *
+ * ========================== */
+.verticalmenu{
+    font-family: AnonymousPro;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.horizontalmenu{
+    font-family: AnonymousPro;
+    font-weight: bold;
+    font-size: 22pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title{
+    font-family: AnonymousPro;
+    font-weight: bold;
+    font-size: 40pt;
+    margin: 0pt;
+}
+.desc{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18pt;
+}
+.iconsize{
+    font-size: 22pt;
+}
+
+/* ================================ *
+ * Styling options for bottom panel *
+ * ================================ */
+.updated{
+    font-family: AnonymousPro;
+    font-size: 10pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.websiteinfo{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 10pt;
+    text-decoration: none;
+}
+.websiteinfo-iconsize{
+    font-size: 8pt;
+}
+
+/* ================================ *
+ * Styling options for main content *
+ * ================================ */
+.profile{
+    border: 1px solid black;
+    border-radius: 100px;
+    border-collapse: collapse;
+}
+.plot{
+    border: 1px solid black;
+    border-radius: 0px;
+    border-collapse: collapse;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+/* ====================== *
+ * Global styling options *
+ * ====================== */
+hr{
+    border: 1px solid white;
+}
+.hr-nav{
+    border: 1px solid white;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 4px;
+}
+html, body {
+    font-family: AnonymousPro;
+    font-size: 14pt;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* =============== *
+ * Available fonts *
+ * =============== */
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(fonts/texgyreadventor-regular.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(fonts/texgyreadventor-bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(fonts/texgyreadventor-italic.otf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(fonts/texgyreadventor-italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: AnonymousPro;
+    src: url(fonts/AnonymousPro-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
