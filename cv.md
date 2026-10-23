@@ -1,11 +1,11 @@
 ---
-layout: default
-tile: Jonathan Petersson
+layout: onecolumn
+title: Jonathan Petersson
 date: 2026-04-08
 ---
 
-# Short Curriculum Vitae
-<hr style="width:60%; margin-left: 0%;">
+# CURRICULUM VITAE
+<hr style="width:100%; margin-left: 0%;">
 
 ## Education
 <p><b>Ecole Polytechnique Fe&#769;de&#769;rale de Lausanne (EPFL)</b><span style="float: right;">2022-2026</span><br>

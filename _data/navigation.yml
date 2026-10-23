@@ -1,9 +1,9 @@
-- name: About Me
+- name: ABOUT
   link: /
-- name: Science
+- name: SCIENCE
   link: /science.html
   subitems:
-  - name: Research Projects
+  - name: RESEARCH PROJECTS
     link: /science.html#research-projects
     subsubitems:
     - name: NOCTUA Suite of Simulations
@@ -19,7 +19,7 @@
     subsubitems:
     - name: The VATPY Code
       link: /science.html#vatpy
-- name: Blog
+- name: BLOG
   link: /blog.html
-- name: Contact
+- name: CONTACT
   link: /contact.html

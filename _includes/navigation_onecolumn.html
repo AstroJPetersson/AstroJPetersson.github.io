@@ -1,0 +1,9 @@
+<nav class="horizontalmenu">
+    {% for item in site.data.navigation %}
+        {% if item.link == page.url %}
+            <a href="{{ item.link }}" class="activebutton-nav">{{ item.name }}</a>
+        {% else %}
+            <a href="{{ item.link }}" class="inactivebutton-nav">{{ item.name }}</a>
+        {% endif %}
+    {% endfor %}
+</nav>

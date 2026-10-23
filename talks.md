@@ -1,11 +1,11 @@
 ---
-layout: default
-tile: Jonathan Petersson
+layout: onecolumn
+title: Jonathan Petersson
 date: 2026-08-20
 ---
 
-# List of Talks
-<hr style="width:40%; margin-left: 0%;">
+# LIST OF TALKS
+<hr style="width:100%; margin-left: 0%;">
 
 <i>European Astronomical Society Annual Meeting 2026</i><br>
 Lausanne, Switzerland - June/July, 2026<br>

@@ -1,11 +1,11 @@
 ---
-layout: default
-tile: Jonathan Petersson
+layout: onecolumn
+title: Jonathan Petersson
 date: 2026-06-10
 ---
 
-# List of Publications
-<hr style="width:55%; margin-left: 0%;">
+# LIST OF PUBLICATIONS
+<hr style="width:100%; margin-left: 0%;">
 
 <ol style="text-align: left">
 <li>
